@@ -1,0 +1,201 @@
+#title{
+    background-color: #ff4c68;
+}
+
+body{
+    font-family: "Montserrat";
+}
+
+.title-header{
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat" ;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+
+h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:black;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color: #ff4c68;
+}
+
+.container-fluid{
+    padding: 3% 15% 0%;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar{
+    padding-bottom: 3.5rem;
+}
+
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0px 20px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+
+/* App Store Button*/
+
+.app-store-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Section*/
+
+ .title.section{
+    position: absolute;
+} 
+
+.title-image{
+    width: 50%;
+    transform: rotate(20deg);
+    position: relative;
+}
+
+/* Feature Section */
+
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    bottom: 100px;
+}
+
+.feature-box{
+    text-align: center;
+}
+
+.feature-icon:hover{
+    color: #ff4c68 !important;
+}
+
+.feature-icon{
+    color: #ef8172;
+    font-size: 4rem;
+    line-height: 2;
+}
+
+.feature-heading{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:black;
+}
+
+.feature-description{
+    color: #8f8f8f;
+}
+
+/* Testamonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Press */
+
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+/* Call to Action  */
+#cta {
+    background-color: #ff4c68;
+    font-weight: 900;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+/* Footer*/
+#footer{
+    text-align: center;
+    padding: 1%;
+}
+
+.social-links{
+    font-size: 1.5rem;
+    margin: 20px 10px;
+    color: black;
+
+}
+
+
+/* Media Queries */
+
+@media (max-width: 1028px){
+   
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
